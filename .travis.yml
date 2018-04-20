@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: FRT7MPeOcvlgU/LTPSMQkVNhBXP2K6m3xQDQkbpkytJmF8vaah+xHC1ApztpBVERr7Z39Ruou5RQLFvgOpNElx/CMV/3K9RHOJrt8b7BUUHX44sSeLtLXJLaT44+ovbCR1hi/lwDbwxT+xiUbahngOw65FZ1axZZtrnz7W4aPw0hJAZBS10FVB0UTu3jC1dk3oudXMZD05t0nbha1fLuHouBlDCBPwtz05LshUj0kPKTyB2lci+NnE8p2Zt1ugEfUiIfBApds6OZzf/9S/k98R4BRkYjbUB4Y4qvqHjFBczsSqdeY/C9XJbJnRSRYrQBIjbSlVGbRa4mf4ODsdCvOjgW8SHhSkrPARgnHqXaw/4jjokV33fRd/fHd9JrJiKR4Vos8c6bGVUvtn6uidinuCvbHRUXAtLB3BwmZEwfiADtI5C36fEmbTnvFK5/IxzAxwcm9de9jw+lrxR/YjdGHlwwuXTTkzq+B9FUAzmaE317JGNhB23Ya9LJ3FMqpdb5MxA1N8pmIWlyec4hLZk2sN5I1BSmIdkdgOECawGwaYeOjB45m+aVLgMV9wH+9IEVQCmeIbhb619jJ/2vLjOb5GdF86H1GI1aacH0wGdXZ3/qYgE0+7jOC/SNl2lv3S6MUC0FAUzMgAPVpwYL2B8l0UoryxcEQNvmhhMxtP9NN1k=
+  app: sayed-noteful-v1
+  on:
+    repo: thinkful-ei20/sayed-noteful-v1
